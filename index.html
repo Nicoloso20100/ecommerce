@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <button class="switch">
+                <span>🌞</span>
+                <span>🌙</span>
+            </button>
+        </div>
+    </nav>
+    <section class="container content-section products-section">
+        <h2 class="section-header">PRODUCTS</h2>
+        <div class="shop-items">
+        </div>
+    </section>
+    <section class="container content-section cart-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"></span>
+        </div>
+        <div class="cart-button-container">
+
+            <a class="btn btn-primary btn-purchase">PURCHASE</a>
+            <button class="btn btn-primary btn-remove-all" type="button">REMOVE ALL</button>
+        </div>
+    </section>
+    <button class="button-modal">🛒</button>
+    <span class="circle-icon">🔴</span>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
